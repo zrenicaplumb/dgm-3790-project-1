@@ -1,0 +1,49 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+	background-color: #E5E5E5;
+}
+.navbar .navbar-brand{
+	color: #333;
+}
+#container{
+	max-width: 1140px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 5px;
+}
+.container h2{
+	color: #333;
+}
+
+.container .jumbotron{
+	background-image: url('../img/bikeHeader.jpg');
+	background-size: cover;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	border-radius: 0px;
+}
+.jumbotron h1{
+	color: #E5E5E5;
+	text-shadow: 0px 0px 15px #242424;
+}
+.jumbotron p{
+	color: #E5E5E5;
+	text-shadow: 0px 0px 15px #242424;
+}
+#myCarousel{
+	max-width: 606px;
+}
+.carousel-inner{
+	/*height: 400px;*/
+}
+.carousel-inner .item img{
+	margin: 0 auto;
+}
+
+
+
+
+
