@@ -12,6 +12,7 @@ background: -webkit-linear-gradient(-45deg,  #fcfcfc 0%,#e5e5e5 100%); /* Chrome
 background: linear-gradient(135deg,  #fcfcfc 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
+
 }
 
 /*----- HEADER STYLING -----*/
@@ -35,7 +36,7 @@ nav ul{
 nav ul li{
 	float: left;
 	list-style-type: none;
-	margin-left: 15px;
+	margin-left: 20px;
 }
 nav ul li a{
 	font-size: 1.1em;
@@ -49,6 +50,8 @@ nav ul li img{
 	padding-bottom: 4px;
 	padding-right: 4px;
 }
+
+/*CAROUSEL*/
 .carouselContain{
 	background-color: #fff;
 	padding: 5px;	
@@ -59,4 +62,42 @@ nav ul li img{
 .carousel-indicators{
 	bottom: -40px;
 	margin-bottom: 0;
+}
+
+/*----- ACCENT BAR STYLING ------*/
+.accentBar{
+	margin-top: 50px;
+	background-image: url("../img/micro_carbon.png");
+	color: #eee;
+	box-shadow: 0 0 10px #555;
+}
+.accentRow{
+	margin: 10px 2%;
+}
+.accentRow ul li{
+	list-style-type: none;
+}
+.accentRight{
+}
+.textEquation{
+	margin-top: 10px;
+	padding: 0;
+	color: rgba(255,255,255,0.5);
+	border-top: 1px solid rgba(255,255,255,0.1);
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.textEquation li a{
+	color: rgba(255,255,255,0.5);
+	float: right;
+}
+.blueText{
+	color: rgba(33,150,255,0.7);
+}
+.greenText{
+	color: rgba(113,232,94,0.7);
+}
+.accentBar h4{
+	color: rgba(255,255,255,0.5);
+	font-size: 1.2em;
+	margin-bottom: 30px;
 }
